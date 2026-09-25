@@ -3,10 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AR Electrical · San Bernardino &amp; Inland Empire, CA</title>
-<meta name="description" content="AR Electrical in San Bernardino, CA. Residential and commercial electrical, panels, and wiring. Call Antonio at 951-533-5903.">
+<title>AR Electrical · Home &amp; Shop Electrical in San Bernardino, CA</title>
+<meta name="description" content="AR Electrical in San Bernardino, CA. Residential and commercial electrical, panels, and circuits. Call Antonio at 951-533-5903.">
 <meta name="geo.region" content="US-CA">
 <meta name="geo.placename" content="San Bernardino">
+<meta name="robots" content="noindex">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=IBM+Plex+Mono:wght@400;500&family=Public+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
@@ -15,7 +16,7 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "HomeAndConstructionBusiness",
+  "@type": "Electrician",
   "name": "AR Electrical",
   "telephone": "+19515335903",
   "address": {
@@ -35,10 +36,38 @@
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
-    {"@type":"Question","name":"Will there be mess?","acceptedAnswer":{"@type":"Answer","text":"Yes. Doorways are sealed with zipped dust screens when we work indoors, floor protection goes on every route through the house, and there is a sweep-down at the end of every working day."}},
-    {"@type":"Question","name":"Will it run over?","acceptedAnswer":{"@type":"Answer","text":"Most jobs finish on the written schedule. Hidden damage, inspection queues, and made-to-order delays are the honest exceptions. You hear from your site lead within 24 hours with the revised date in writing."}},
-    {"@type":"Question","name":"How do payments work?","acceptedAnswer":{"@type":"Answer","text":"Staged in the contract: 10% to book, 30% on start, 30% at mid-point, 25% at finish work, and the final 5% only after the punch list is cleared at sign-off."}},
-    {"@type":"Question","name":"Do we have to move out?","acceptedAnswer":{"@type":"Answer","text":"Usually not. Electrical work is staged so power stays available to the rest of the house when the layout allows."}}
+    {
+      "@type": "Question",
+      "name": "What are your hours?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Call for hours. Antonio will tell you when he can get out to you."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you do commercial work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, shops and small commercial spaces as well as homes. Tell Antonio what the space is used for when you call."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I get a price over the phone?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A rough range for simple jobs. Panels and shop circuits get looked at first, then priced in writing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you work outside San Bernardino?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, across nearby Inland Empire cities. If your address is too far, Antonio will say so on the call."
+      }
+    }
   ]
 }
 </script>
@@ -48,7 +77,7 @@
 
 <header class="site-head" id="top">
   <div class="wrap site-head__row">
-    <a class="brand" href="#top">
+    <a class="brand" href="#top" aria-label="AR Electrical, back to top">
       <span class="brand__mark" aria-hidden="true"></span>
       <span class="brand__name">AR<br>Electrical</span>
     </a>
@@ -56,8 +85,8 @@
       <a href="#work">The work</a>
       <a href="#services">What we do</a>
       <a href="#quote-includes">The quote</a>
-      <a href="#stages">Five stages</a>
-      <a href="#people">On site</a>
+      <a href="#stages">How it goes</a>
+      <a href="#people">Who answers</a>
       <a href="#answers">Straight answers</a>
     </nav>
     <a class="site-head__tel mono" href="tel:+19515335903">951-533-5903</a>
@@ -70,22 +99,23 @@
     <div class="wrap hero__grid">
       <div class="hero__copy">
         <p class="kicker boot boot-1">Residential · Commercial Electrical · San Bernardino, CA</p>
-        <h1 id="hero-h" class="boot boot-2">San Bernardino electrical<br>for homes and shops,<br>priced in <em>writing.</em></h1>
-        <p class="lede boot boot-3">Residential and commercial electrical, panel work, and wiring across San Bernardino and the Inland Empire. You get a fixed itemized quote before we start, Antonio on the line while we are there, and a twelve-month workmanship guarantee when we leave.</p>
+        <h1 id="hero-h" class="boot boot-2">San Bernardino<br>electrical for homes and shops,<br>priced in <em>writing.</em></h1>
+        <p class="lede boot boot-3">A house that needs a panel with room to grow, or a shop that needs a clean circuit for a new machine. Antonio Lauro runs AR Electrical and answers his own phone. He looks at the job, then puts the price in writing before any work starts.</p>
         <div class="hero__actions boot boot-4">
-          <a class="btn btn--copper" href="#quote">Get a quote</a>
-          <a class="btn btn--ghost" href="tel:+19515335903">Call Antonio</a>
+          <a class="btn btn--copper" href="tel:+19515335903">Call Antonio · 951-533-5903</a>
+          <a class="btn btn--ghost" href="#quote">Send the job details</a>
         </div>
         <p class="tf-updated-chip" id="tf-updated-chip" aria-hidden="true">Updated just now</p>
-        <dl class="hero__facts boot boot-5">
-          <div class="fact"><dt>Quote held for</dt><dd class="mono"><span data-count="60">60</span> days</dd></div>
-          <div class="fact"><dt>Guarantee</dt><dd class="mono"><span data-count="12">12</span> months</dd></div>
+        <dl class="hero__facts hero__facts--text boot boot-5">
+          <div class="fact"><dt>Owner</dt><dd class="mono">Antonio</dd></div>
+          <div class="fact"><dt>Based in</dt><dd class="mono">San Bernardino</dd></div>
+          <div class="fact"><dt>Price</dt><dd class="mono">In writing</dd></div>
           <div class="fact"><dt>Hours</dt><dd class="mono">Call for hours</dd></div>
         </dl>
       </div>
       <div class="hero__media boot boot-3">
         <img src="images/hero-site.jpg"
-             alt="Electrical panel and conduit work for home and shop service"
+             alt="Ladder beside an open electrical panel"
              fetchpriority="high"
              onerror="this.onerror=null;this.src='data:image/svg+xml;utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 4 5%22%3E%3Crect width=%224%22 height=%225%22 fill=%22%232a2d31%22/%3E%3C/svg%3E'">
         <svg class="plumb" viewBox="0 0 60 300" aria-hidden="true" focusable="false">
@@ -99,7 +129,7 @@
       </div>
     </div>
     <div class="hero__rule wrap boot boot-6" aria-hidden="true">
-      <span class="mono">DOSSIER · AR ELECTRICAL · 4263 N PERSHING AVE · SAN BERNARDINO CA 92407</span>
+      <span class="mono">AR ELECTRICAL · 4263 N PERSHING AVE · SAN BERNARDINO CA 92407</span>
     </div>
   </section>
 
@@ -107,24 +137,24 @@
     <div class="wrap">
       <header class="sec-head" data-reveal>
         <p class="kicker">The work · drag the line</p>
-        <h2 id="work-h">Before and after,<br>on the record.</h2>
-        <p class="sec-head__note">Sample residential work typical of jobs in this area. Photos are examples of the kind of finish we deliver. Location and duration are illustrative; dollar amounts are typical of this kind of job, not a claim about a specific completed contract. Drag the divider, or focus the handle and use the arrow keys.</p>
+        <h2 id="work-h">Before and after,<br>typical jobs.</h2>
+        <p class="sec-head__note">Sample electrical jobs typical of this area. The photos are stock images typical of this kind of job, not photos of AR Electrical jobs. Towns and durations are typical of this kind of job, not a record of a specific completed contract. Drag the divider, or focus the handle and use the arrow keys.</p>
       </header>
 
       <article class="job" data-reveal>
         <div class="job__head">
           <span class="job__no mono">SAMPLE 01</span>
-          <h3>Home and shop panel service, San Bernardino</h3>
+          <h3>Panel upgrade for a family home, San Bernardino</h3>
         </div>
         <figure class="ba" data-ba>
           <div class="ba__frame" data-ba-frame style="--pos:50%">
-            <img class="ba__after" src="images/job041-after.jpg"
-                 alt="Clean residential panel work after breaker upgrade" loading="lazy"
+            <img class="ba__after" src="images/elec-breakers-row.jpg"
+                 alt="Clean row of new breakers in an upgraded panel" loading="lazy"
                  onerror="this.onerror=null;this.src='data:image/svg+xml;utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 8 5%22%3E%3Crect width=%228%22 height=%225%22 fill=%22%23efe9df%22/%3E%3C/svg%3E'">
             <div class="ba__before-clip">
-              <img class="ba__before" src="images/job041-before.jpg"
-                   alt="Older outdoor electrical box before panel upgrade" loading="lazy"
-                   onerror="this.onerror=null;this.src='data:image/svg+xml;utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 8 5%22%3E%3Crect width=%228%22 height=%225%22 fill=%22%232a2d31%22/%3E%3C/svg%3E'">
+              <img class="ba__before" src="images/elec-wiring-messy.jpg"
+                 alt="Tangled old wiring in a worn electrical box" loading="lazy"
+                 onerror="this.onerror=null;this.src='data:image/svg+xml;utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 8 5%22%3E%3Crect width=%228%22 height=%225%22 fill=%22%232a2d31%22/%3E%3C/svg%3E'">
             </div>
             <div class="ba__divider" aria-hidden="true"></div>
             <button class="ba__handle" type="button" role="slider"
@@ -138,28 +168,27 @@
           </div>
           <figcaption class="job__meta">
             <div class="job__cell"><span class="job__label">Location</span><span>San Bernardino CA 92407</span></div>
-            <div class="job__cell"><span class="job__label">Duration</span><span class="mono">2 days</span></div>
-            <div class="job__cell"><span class="job__label">Typical of this kind of job</span><span class="mono">$<span data-count="4800">4,800</span></span></div>
-            <div class="job__cell"><span class="job__label">Site lead</span><span>Antonio Israel Lauro</span></div>
+            <div class="job__cell"><span class="job__label">Typical duration</span><span class="mono">1-2 days</span></div>
+            <div class="job__cell"><span class="job__label">Who you call</span><span>Antonio Israel Lauro</span></div>
           </figcaption>
         </figure>
-        <p class="job__note">Panel upgrade, labeled breakers, and inspection path when required. Sample typical of this kind of job, not a claim about a specific completed contract.</p>
+        <p class="job__note">Old panel out, new panel in with room for future circuits, every breaker labeled, inspection when required. Photos are stock images typical of this kind of job.</p>
       </article>
 
       <article class="job" data-reveal>
         <div class="job__head">
           <span class="job__no mono">SAMPLE 02</span>
-          <h3>Outlet and lighting circuit work, Highland</h3>
+          <h3>Dedicated circuit for shop equipment, Highland</h3>
         </div>
         <figure class="ba" data-ba>
           <div class="ba__frame" data-ba-frame style="--pos:50%">
-            <img class="ba__after" src="images/job-elec-after.jpg"
-                 alt="Electrician working on outdoor electrical enclosure" loading="lazy"
+            <img class="ba__after" src="images/elec-ladder-panel.jpg"
+                 alt="Ladder beside an open panel during circuit work" loading="lazy"
                  onerror="this.onerror=null;this.src='data:image/svg+xml;utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 8 5%22%3E%3Crect width=%228%22 height=%225%22 fill=%22%23efe9df%22/%3E%3C/svg%3E'">
             <div class="ba__before-clip">
-              <img class="ba__before" src="images/job-elec-before.jpg"
-                   alt="Weathered outdoor electrical box before service work" loading="lazy"
-                   onerror="this.onerror=null;this.src='data:image/svg+xml;utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 8 5%22%3E%3Crect width=%228%22 height=%225%22 fill=%22%232a2d31%22/%3E%3C/svg%3E'">
+              <img class="ba__before" src="images/elec-terminals.jpg"
+                 alt="Terminal blocks and wiring before a new circuit is landed" loading="lazy"
+                 onerror="this.onerror=null;this.src='data:image/svg+xml;utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 8 5%22%3E%3Crect width=%228%22 height=%225%22 fill=%22%232a2d31%22/%3E%3C/svg%3E'">
             </div>
             <div class="ba__divider" aria-hidden="true"></div>
             <button class="ba__handle" type="button" role="slider"
@@ -173,28 +202,27 @@
           </div>
           <figcaption class="job__meta">
             <div class="job__cell"><span class="job__label">Location</span><span>Highland CA</span></div>
-            <div class="job__cell"><span class="job__label">Duration</span><span class="mono">1 day</span></div>
-            <div class="job__cell"><span class="job__label">Typical of this kind of job</span><span class="mono">$<span data-count="2400">2,400</span></span></div>
-            <div class="job__cell"><span class="job__label">Site lead</span><span>Antonio Israel Lauro</span></div>
+            <div class="job__cell"><span class="job__label">Typical duration</span><span class="mono">1 day</span></div>
+            <div class="job__cell"><span class="job__label">Who you call</span><span>Antonio Israel Lauro</span></div>
           </figcaption>
         </figure>
-        <p class="job__note">Service disconnect work and circuit cleanup on a residential exterior. Photos show the kind of finish we deliver. Dollar amounts are typical of this kind of job.</p>
+        <p class="job__note">New dedicated circuit run to the machine location, breaker sized to the equipment, directory updated. Photos are stock images typical of this kind of job.</p>
       </article>
 
       <article class="job" data-reveal>
         <div class="job__head">
           <span class="job__no mono">SAMPLE 03</span>
-          <h3>Dedicated circuits for equipment, Rialto</h3>
+          <h3>Dining light and switch refresh, Rialto</h3>
         </div>
         <figure class="ba" data-ba>
           <div class="ba__frame" data-ba-frame style="--pos:50%">
-            <img class="ba__after" src="images/job052-after.jpg"
-                 alt="Organized electrical panel after circuit adds" loading="lazy"
+            <img class="ba__after" src="images/elec-pendant-warm.jpg"
+                 alt="Pendant light fixture installed and lit" loading="lazy"
                  onerror="this.onerror=null;this.src='data:image/svg+xml;utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 8 5%22%3E%3Crect width=%228%22 height=%225%22 fill=%22%23efe9df%22/%3E%3C/svg%3E'">
             <div class="ba__before-clip">
-              <img class="ba__before" src="images/job052-before.jpg"
-                   alt="Tools staged for residential wiring work" loading="lazy"
-                   onerror="this.onerror=null;this.src='data:image/svg+xml;utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 8 5%22%3E%3Crect width=%228%22 height=%225%22 fill=%22%232a2d31%22/%3E%3C/svg%3E'">
+              <img class="ba__before" src="images/elec-rough-box.jpg"
+                 alt="Rough-in electrical box on an open stud wall" loading="lazy"
+                 onerror="this.onerror=null;this.src='data:image/svg+xml;utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 8 5%22%3E%3Crect width=%228%22 height=%225%22 fill=%22%232a2d31%22/%3E%3C/svg%3E'">
             </div>
             <div class="ba__divider" aria-hidden="true"></div>
             <button class="ba__handle" type="button" role="slider"
@@ -208,12 +236,11 @@
           </div>
           <figcaption class="job__meta">
             <div class="job__cell"><span class="job__label">Location</span><span>Rialto CA</span></div>
-            <div class="job__cell"><span class="job__label">Duration</span><span class="mono">3 days</span></div>
-            <div class="job__cell"><span class="job__label">Typical of this kind of job</span><span class="mono">$<span data-count="3600">3,600</span></span></div>
-            <div class="job__cell"><span class="job__label">Site lead</span><span>Antonio Israel Lauro</span></div>
+            <div class="job__cell"><span class="job__label">Typical duration</span><span class="mono">Half day</span></div>
+            <div class="job__cell"><span class="job__label">Who you call</span><span>Antonio Israel Lauro</span></div>
           </figcaption>
         </figure>
-        <p class="job__note">Dedicated circuits for kitchen and garage, plus labeled breakers. Rough-in inspected before walls closed when the job requires it.</p>
+        <p class="job__note">Old fixture pulled, new box and pendant hung over the table, switching simplified so the lights make sense. Photos are stock images typical of this kind of job.</p>
       </article>
     </div>
   </section>
@@ -221,22 +248,31 @@
   <section class="services" id="services" aria-labelledby="services-h">
     <div class="wrap services__grid">
       <header class="sec-head" data-reveal>
-        <p class="kicker">Scope of works</p>
-        <h2 id="services-h">What we do, and how long it takes.</h2>
-        <p class="sec-head__note">Typical durations from start on site to sign-off, assuming no structural surprises. Your quote states the schedule for your job specifically.</p>
+        <p class="kicker">Scope of work</p>
+        <h2 id="services-h">What we do, and how long it usually takes.</h2>
+        <p class="sec-head__note">Typical time on site for a standard job. Your written quote gives the schedule for your job specifically.</p>
       </header>
       <div class="services__media" data-reveal>
         <img src="images/services-trade.jpg"
-             alt="Residential and light commercial electrical panel work" loading="lazy"
-             onerror="this.onerror=null;this.src='data:image/svg+xml;utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 4 5%22%3E%3Crect width=%224%22 height=%225%22 fill=%22%232a2d31%22/%3E%3C/svg%3E'">
+                 alt="Meter and breaker cabinet, typical of service work" loading="lazy"
+                 onerror="this.onerror=null;this.src='data:image/svg+xml;utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 4 5%22%3E%3Crect width=%224%22 height=%225%22 fill=%22%232a2d31%22/%3E%3C/svg%3E'">
       </div>
       <ul class="services__list" data-reveal>
-        <li><span>Residential electrical</span><span class="mono">1-5 days</span></li>
-        <li><span>Commercial electrical support</span><span class="mono">1-5 days</span></li>
-        <li><span>Panel work and upgrades</span><span class="mono">1-3 days</span></li>
-        <li><span>Wiring and circuit adds</span><span class="mono">1-5 days</span></li>
-        <li><span>Outlet and lighting installs</span><span class="mono">same day-2 days</span></li>
-      
+        <li><span>Home electrical repairs</span><span class="mono">same day-1 day</span></li>
+        <li><span>Panel upgrades</span><span class="mono">1-2 days</span></li>
+        <li><span>Shop and commercial circuits</span><span class="mono">1 day</span></li>
+        <li><span>Lighting, inside and out</span><span class="mono">same day-1 day</span></li>
+        <li><span>Troubleshooting and breaker problems</span><span class="mono">same day</span></li>
+      </ul>
+      <aside class="services__wont" data-reveal>
+        <h3>What we will not do</h3>
+        <ul>
+          <li>Open walls or energize anything before the scope is agreed.</li>
+          <li>Quote a panel upgrade from photos alone.</li>
+          <li>Hide parts costs inside a vague line item.</li>
+          <li>Leave a panel without a clear breaker directory.</li>
+          <li>Ignore a load or safety problem we find while we are there.</li>
+        </ul>
       </aside>
     </div>
   </section>
@@ -245,18 +281,18 @@
     <div class="wrap quote-inc__grid">
       <header class="sec-head" data-reveal>
         <p class="kicker">The paperwork</p>
-        <h2 id="qi-h">What a fixed quote actually includes.</h2>
-        <p class="sec-head__note">One document, itemized line by line, priced to the dollar and held for 60 days. If it is not on the list below, it is named in the exclusions, in writing, on the same page.</p>
+        <h2 id="qi-h">What the written quote covers.</h2>
+        <p class="sec-head__note">One page, line by line, before any work starts. If something is not on the list, it is named in the exclusions on the same page.</p>
       </header>
       <ol class="quote-inc__list" data-reveal>
-        <li><span class="mono quote-inc__no">01</span>Labour, listed by trade and by week</li>
-        <li><span class="mono quote-inc__no">02</span>Materials, with brands and quantities named</li>
-        <li><span class="mono quote-inc__no">03</span>Dumpster, waste tickets and site tidy</li>
-        <li><span class="mono quote-inc__no">04</span>Access, protection and site welfare</li>
-        <li><span class="mono quote-inc__no">05</span>Permit applications and inspection fees when required</li>
-        <li><span class="mono quote-inc__no">06</span>Allowances flagged separately, never buried</li>
-        <li><span class="mono quote-inc__no">07</span>Sales tax shown in full when it applies</li>
-        <li><span class="mono quote-inc__no">08</span>Exclusions stated in writing on the same document</li>
+        <li><span class="mono quote-inc__no">01</span>The work, described in plain words</li>
+        <li><span class="mono quote-inc__no">02</span>Panel size and breakers named by brand</li>
+        <li><span class="mono quote-inc__no">03</span>Every new circuit listed by room or machine</li>
+        <li><span class="mono quote-inc__no">04</span>Patch and repair of any wall openings, or a note that it is excluded</li>
+        <li><span class="mono quote-inc__no">05</span>Permit and inspection costs when the job needs them</li>
+        <li><span class="mono quote-inc__no">06</span>Utility coordination when a service change is involved</li>
+        <li><span class="mono quote-inc__no">07</span>Anything that could change the price, flagged up front</li>
+        <li><span class="mono quote-inc__no">08</span>What is not included, in writing</li>
       </ol>
     </div>
   </section>
@@ -264,42 +300,42 @@
   <section class="stages" id="stages" aria-labelledby="stages-h">
     <div class="wrap">
       <header class="sec-head" data-reveal>
-        <p class="kicker">First visit to sign-off</p>
-        <h2 id="stages-h">Five stages. No stage six.</h2>
+        <p class="kicker">First call to finished job</p>
+        <h2 id="stages-h">Five steps. No surprises.</h2>
       </header>
       <div class="stages__row">
         <ol class="stages__list">
           <li data-reveal>
             <span class="stages__no mono">1</span>
-            <h3>Site visit &amp; measure</h3>
-            <p>Free, about ninety minutes. We measure, photograph, and ask what you actually want the space to do. No pressure, no sales patter.</p>
+            <h3>You call</h3>
+            <p>Call 951-533-5903. Antonio asks a few questions so the first visit is the right visit.</p>
           </li>
           <li data-reveal>
             <span class="stages__no mono">2</span>
-            <h3>Fixed written quote</h3>
-            <p>Itemized and priced within seven days, held for sixty. You can take it to two other firms and compare it line by line. We encourage that.</p>
+            <h3>A look at the job</h3>
+            <p>Antonio opens the panel, checks the circuits involved, and asks what you plan to add over the next few years.</p>
           </li>
           <li data-reveal>
             <span class="stages__no mono">3</span>
-            <h3>Schedule &amp; paperwork</h3>
-            <p>A start date in writing, permits lodged when needed, and your site lead named before day one.</p>
+            <h3>Price in writing</h3>
+            <p>Parts, labor, and anything that could change the number, on paper. Compare it with anyone you like.</p>
           </li>
           <li data-reveal>
             <span class="stages__no mono">4</span>
-            <h3>The build</h3>
-            <p>Same site lead throughout, a written progress note every Friday, work areas protected, and the site swept before we leave each day.</p>
+            <h3>The work</h3>
+            <p>Work areas protected, old parts hauled off, and the job tested before anyone calls it done.</p>
           </li>
           <li data-reveal>
             <span class="stages__no mono">5</span>
-            <h3>Snag &amp; sign-off</h3>
-            <p>A walk-through together, a written punch list cleared before the final five percent is due, then your twelve-month guarantee certificate.</p>
+            <h3>Walk-through</h3>
+            <p>Antonio shows you what was done and what to watch for, and answers questions while he is still there.</p>
           </li>
         </ol>
         <div class="stages__art" data-reveal aria-hidden="true">
           <svg class="house" viewBox="0 0 220 220" focusable="false">
             <path class="house__stroke" d="M30 200 H190 M40 200 V100 L110 40 L180 100 V200 M40 100 H180 M85 200 V150 H135 V200 M60 120 h24 v28 h-24 z M136 120 h24 v28 h-24 z M110 40 V22 h14 v22"/>
           </svg>
-          <p class="mono stages__art-tag">FIG. 1 · THE JOB, DRAWN ONCE, BUILT ONCE</p>
+          <p class="mono stages__art-tag">FIG. 1 · LOOK FIRST, PRICE IT, THEN DO IT</p>
         </div>
       </div>
     </div>
@@ -309,21 +345,21 @@
     <div class="wrap guarantee__grid">
       <header class="sec-head" data-reveal>
         <p class="kicker">In writing, not in passing</p>
-        <h2 id="g-h">The guarantee and the insurance.</h2>
+        <h2 id="g-h">Before you hire anyone, including us.</h2>
       </header>
       <div class="guarantee__cards">
         <article class="gcard" data-reveal>
-          <h3>Twelve-month workmanship guarantee</h3>
-          <p>Every job leaves with a signed certificate. If our workmanship fails within twelve months of sign-off, we return and put it right at no cost, within ten working days of your call. It covers our labour and installation; manufacturer warranties on equipment and materials sit on top of it, not instead of it.</p>
+          <h3>Get the terms on the quote</h3>
+          <p>Ask how the workmanship is covered and for how long, and make sure the answer is written on the quote. Manufacturer warranties on equipment and parts are separate, and worth keeping with your paperwork.</p>
         </article>
         <article class="gcard" data-reveal>
-          <h3>Insurance you can inspect</h3>
+          <h3>Ask for the paperwork</h3>
           <ul>
-            <li><span>General liability</span><span class="mono">certificates on request</span></li>
-            <li><span>Workers compensation</span><span class="mono">as required</span></li>
-            <li><span>Contract works cover</span><span class="mono">to full contract value</span></li>
+            <li><span>Written quote</span><span class="mono">before work starts</span></li>
+            <li><span>Proof of insurance</span><span class="mono">ask for it</span></li>
+            <li><span>Permits</span><span class="mono">when the job needs one</span></li>
           </ul>
-          <p>Ask for certificates before any firm starts. A good one will not hesitate.</p>
+          <p>Any contractor worth hiring will hand these over without a fuss.</p>
         </article>
       </div>
     </div>
@@ -332,36 +368,36 @@
   <section class="people" id="people" aria-labelledby="people-h">
     <div class="wrap">
       <header class="sec-head" data-reveal>
-        <p class="kicker">Who turns up</p>
-        <h2 id="people-h">The people who will be on your site.</h2>
-        <p class="sec-head__note">Antonio runs the job from first day to sign-off. You get his mobile number, and he answers it.</p>
+        <p class="kicker">Who answers</p>
+        <h2 id="people-h">You talk to Antonio, not a call center.</h2>
+        <p class="sec-head__note">Antonio runs the job from the first call to the walk-through. Call 951-533-5903 for hours and scheduling.</p>
       </header>
       <div class="people__grid">
         <figure class="person person--wide" data-reveal>
           <img src="images/people-crew.jpg"
-               alt="Crew measuring and working together on site" loading="lazy"
-               onerror="this.onerror=null;this.src='data:image/svg+xml;utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 4 5%22%3E%3Crect width=%224%22 height=%225%22 fill=%22%232a2d31%22/%3E%3C/svg%3E'">
+                 alt="Tool belt with hand tools, stock photo" loading="lazy"
+                 onerror="this.onerror=null;this.src='data:image/svg+xml;utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 4 5%22%3E%3Crect width=%224%22 height=%225%22 fill=%22%232a2d31%22/%3E%3C/svg%3E'">
           <figcaption>
-            <strong>The site crew</strong>
-            <span>Residential and commercial electrical across San Bernardino and the Inland Empire.</span>
+            <strong>AR Electrical</strong>
+            <span>Antonio Israel Lauro owns AR Electrical. When you call 951-533-5903 you reach Antonio, not a call center.</span>
           </figcaption>
         </figure>
         <figure class="person" data-reveal>
           <img src="images/people-marek.jpg"
-               alt="Drill and tools on an electrical job site" loading="lazy"
-               onerror="this.onerror=null;this.src='data:image/svg+xml;utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 4 5%22%3E%3Crect width=%224%22 height=%225%22 fill=%22%232a2d31%22/%3E%3C/svg%3E'">
+                 alt="Colored electrical wire ends" loading="lazy"
+                 onerror="this.onerror=null;this.src='data:image/svg+xml;utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 4 5%22%3E%3Crect width=%224%22 height=%225%22 fill=%22%232a2d31%22/%3E%3C/svg%3E'">
           <figcaption>
-            <strong>On the tools</strong>
-            <span>Panel, wire, and circuit work in San Bernardino homes and shops. Antonio answers the phone; this photo is the jobsite, not a headshot.</span>
+            <strong>Homes and shops</strong>
+            <span>Some days it is a house panel, some days it is a shop circuit. Antonio treats both the same way: look first, price it, then do it.</span>
           </figcaption>
         </figure>
         <figure class="person" data-reveal>
           <img src="images/people-tom.jpg"
-               alt="Toolbox and hardware on a residential job" loading="lazy"
-               onerror="this.onerror=null;this.src='data:image/svg+xml;utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 4 5%22%3E%3Crect width=%224%22 height=%225%22 fill=%22%232a2d31%22/%3E%3C/svg%3E'">
+                 alt="Light switch on a finished wall" loading="lazy"
+                 onerror="this.onerror=null;this.src='data:image/svg+xml;utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 4 5%22%3E%3Crect width=%224%22 height=%225%22 fill=%22%232a2d31%22/%3E%3C/svg%3E'">
           <figcaption>
-            <strong>Parts and hardware</strong>
-            <span>Breakers, devices, and materials named on the quote when the job needs them.</span>
+            <strong>Stock photos</strong>
+            <span>Photos on this page are stock images typical of this kind of job, not photos of Antonio or his work.</span>
           </figcaption>
         </figure>
       </div>
@@ -372,24 +408,24 @@
     <div class="wrap answers__grid">
       <header class="sec-head" data-reveal>
         <p class="kicker">Asked every week</p>
-        <h2 id="answers-h">Straight answers about mess, timing, and money.</h2>
+        <h2 id="answers-h">Straight answers.</h2>
       </header>
       <div class="answers__cols">
         <article class="answer" data-reveal>
-          <h3>Will there be mess?</h3>
-          <p>Yes. Doorways are sealed with zipped dust screens when we work indoors, floor protection goes on every route through the house, and there is a sweep-down at the end of every working day.</p>
+          <h3>What are your hours?</h3>
+          <p>Call for hours. Antonio will tell you when he can get out to you.</p>
         </article>
         <article class="answer" data-reveal>
-          <h3>Will it run over?</h3>
-          <p>Most jobs finish on the written schedule. Hidden damage, inspection queues, and made-to-order delays are the honest exceptions. You hear from your site lead within 24 hours with the revised date in writing.</p>
+          <h3>Do you do commercial work?</h3>
+          <p>Yes, shops and small commercial spaces as well as homes. Tell Antonio what the space is used for when you call.</p>
         </article>
         <article class="answer" data-reveal>
-          <h3>How do payments work?</h3>
-          <p>Staged in the contract: 10% to book, 30% on start, 30% at mid-point, 25% at finish work, and the final 5% only after the punch list is cleared at sign-off.</p>
+          <h3>Can I get a price over the phone?</h3>
+          <p>A rough range for simple jobs. Panels and shop circuits get looked at first, then priced in writing.</p>
         </article>
         <article class="answer" data-reveal>
-          <h3>Do we have to move out?</h3>
-          <p>Usually not. Electrical work is staged so power stays available to the rest of the building when the layout allows.</p>
+          <h3>Do you work outside San Bernardino?</h3>
+          <p>Yes, across nearby Inland Empire cities. If your address is too far, Antonio will say so on the call.</p>
         </article>
       </div>
     </div>
@@ -399,16 +435,16 @@
     <div class="wrap coverage__grid">
       <div class="coverage__copy" data-reveal>
         <p class="kicker">Where we work</p>
-        <h2 id="cov-h">San Bernardino and the Inland Empire. That is our patch.</h2>
-        <p>San Bernardino, Highland, Rialto, Colton, and nearby IE cities. Antonio keeps jobs close so a panel or shop wiring decision does not wait a week. If your address is outside our coverage we will say so on the call.</p>
+        <h2 id="cov-h">San Bernardino and the Inland Empire. That is the patch.</h2>
+        <p>San Bernardino, Highland, Rialto, Colton, Loma Linda, and Muscoy. Antonio keeps jobs close so a dead circuit does not wait a week. If your address is outside the area he will say so on the call.</p>
         <ul class="coverage__towns mono">
-          <li>SAN BERNARDINO</li><li>HIGHLAND</li><li>RIALTO</li><li>COLTON</li><li>REDLANDS</li><li>LOMA LINDA</li>
-        
+          <li>SAN BERNARDINO</li><li>HIGHLAND</li><li>RIALTO</li><li>COLTON</li><li>LOMA LINDA</li><li>MUSCOY</li>
+        </ul>
       </div>
       <figure class="coverage__media" data-reveal>
         <img src="images/coverage-house.jpg"
-             alt="San Bernardino-area home typical of neighborhoods AR Electrical serves" loading="lazy"
-             onerror="this.onerror=null;this.src='data:image/svg+xml;utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 4 3%22%3E%3Crect width=%224%22 height=%223%22 fill=%22%232a2d31%22/%3E%3C/svg%3E'">
+                 alt="Inland Empire home typical of neighborhoods AR Electrical serves" loading="lazy"
+                 onerror="this.onerror=null;this.src='data:image/svg+xml;utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 4 3%22%3E%3Crect width=%224%22 height=%223%22 fill=%22%232a2d31%22/%3E%3C/svg%3E'">
         <figcaption class="mono">SAN BERNARDINO · INLAND EMPIRE</figcaption>
       </figure>
     </div>
@@ -417,9 +453,9 @@
   <section class="quote" id="quote" aria-labelledby="quote-h">
     <div class="wrap quote__grid">
       <header class="sec-head" data-reveal>
-        <p class="kicker">Start the file</p>
-        <h2 id="quote-h">Request your fixed quote.</h2>
-        <p class="sec-head__note">Tell us the job and we will ring within one working day to book the site visit. Visits are free and quotes arrive within seven days of the visit.</p>
+        <p class="kicker">Start here</p>
+        <h2 id="quote-h">Call Antonio, or send the details.</h2>
+        <p class="sec-head__note">The fastest way is the phone. Antonio answers, asks a few questions, and sets up a time to look at the job.</p>
         <address class="quote__contact">
           <a class="mono" href="tel:+19515335903">951-533-5903</a>
           <span>4263 N Pershing Ave, San Bernardino CA 92407<br>Hours: Call for hours</span>
@@ -442,17 +478,17 @@
         <div class="field">
           <label for="f-type">Type of job</label>
           <select id="f-type" name="type">
-            <option>Residential electrical</option>
-            <option>Commercial electrical</option>
+            <option>Home electrical</option>
+            <option>Shop or commercial circuit</option>
             <option>Panel upgrade</option>
-            <option>Wiring / circuit adds</option>
-            <option>Outlets and lighting</option>
+            <option>Lighting</option>
+            <option>Troubleshooting</option>
             <option>Something else</option>
           </select>
         </div>
         <div class="field">
           <label for="f-message">The job, in your own words <span aria-hidden="true">*</span></label>
-          <textarea id="f-message" name="message" rows="5" required placeholder="e.g. Shop panel and circuit work in San Bernardino, need written quote"></textarea>
+          <textarea id="f-message" name="message" rows="5" required placeholder="e.g. Need a 240V circuit for a compressor in my San Bernardino shop"></textarea>
         </div>
         <div class="field field--trap">
           <label for="f-website">Leave this field empty</label>
@@ -468,22 +504,21 @@
 
 <footer class="site-foot">
   <div class="wrap site-foot__row">
-    <p><strong>AR Electrical</strong> · 4263 N Pershing Ave, San Bernardino CA 92407</p>
-    <p class="mono">FIXED QUOTES · NAMED SITE LEAD · 12-MONTH GUARANTEE</p>
-    <p>© 2026 AR Electrical. Preview for owner review. Call 951-533-5903.</p>
+    <p><strong>AR Electrical</strong> · 4263 N Pershing Ave, San Bernardino CA 92407 · <a href="tel:+19515335903">951-533-5903</a></p>
+    <p class="mono">WRITTEN QUOTES · OWNER ON THE PHONE · CALL FOR HOURS</p>
+    <p>© 2026 AR Electrical. Preview for owner review. Photos are stock images typical of this kind of job.</p>
   </div>
 </footer>
 
 <div class="quotebar" data-quotebar>
   <div class="wrap quotebar__row">
-    <p class="quotebar__line"><strong>Fixed written quote, free site visit.</strong> <span>Priced within 7 days, held for 60.</span></p>
+    <p class="quotebar__line"><strong>Talk to Antonio directly.</strong> <span>Price in writing before any work starts.</span></p>
     <div class="quotebar__actions">
       <a class="quotebar__tel mono" href="tel:+19515335903">951-533-5903</a>
-      <a class="btn btn--copper btn--small" href="#quote">Get a quote</a>
+      <a class="btn btn--copper btn--small" href="tel:+19515335903">Call Antonio</a>
     </div>
   </div>
 </div>
-
 
 
 <!-- ===== Template Factory demo journey (client-side only) ===== -->
@@ -495,6 +530,7 @@
     </div>
     <div class="tf-bar__actions">
       <a class="btn btn--copper" data-tf="claim" href="https://buy.stripe.com/cNieVdg1peCq9subRr1gs02" target="_blank" rel="noopener">Claim this site · $297</a>
+      <a class="btn btn--ghost" data-tf="hosting" href="https://buy.stripe.com/8x2fZhaH52TI0VY7Bb1gs03" target="_blank" rel="noopener">Hosting · $99/mo</a>
       <button type="button" class="btn btn--ghost" data-tf="change">Request a change</button>
       <button type="button" class="btn btn--ghost" data-tf="journey">Preview rest of journey (demo)</button>
       <button type="button" class="btn btn--linkish" data-tf="simulate">I paid / simulate purchase</button>
@@ -597,7 +633,7 @@
         </div>
 
         <div class="tf-path" id="tf-path-c" hidden>
-          <p class="tf-note">Path C · three name ideas. We show a shortlist at cost (~$14/yr). Demo list only.</p>
+          <p class="tf-note">Path C · three name ideas. We show a shortlist, priced at cost. Demo list only; availability is checked again at purchase.</p>
           <div class="tf-field">
             <label for="tf-idea-1">Name idea 1</label>
             <input id="tf-idea-1" type="text" placeholder="AR Electrical SB">
@@ -608,20 +644,21 @@
           </div>
           <div class="tf-field">
             <label for="tf-idea-3">Name idea 3</label>
-            <input id="tf-idea-3" type="text" placeholder="Antonio Lauro Electric">
+            <input id="tf-idea-3" type="text" placeholder="Antonio AR Electrical">
           </div>
           <p class="tf-note" style="margin-top:0.5rem"><strong>Shortlist (demo)</strong></p>
           <div class="tf-domain-list">
             <button type="button" class="tf-domain" data-tf="pick-domain" data-domain="arelectricalsb.com">
-              <strong>arelectricalsb.com</strong><span>~ $14/yr</span>
+              <strong>arelectricalsb.com</strong><span>at cost</span>
             </button>
             <button type="button" class="tf-domain" data-tf="pick-domain" data-domain="arelectricalie.com">
-              <strong>arelectricalie.com</strong><span>~ $14/yr</span>
+              <strong>arelectricalie.com</strong><span>at cost</span>
             </button>
             <button type="button" class="tf-domain" data-tf="pick-domain" data-domain="antonioarelectrical.com">
-              <strong>antonioarelectrical.com</strong><span>~ $12/yr</span>
+              <strong>antonioarelectrical.com</strong><span>at cost</span>
             </button>
-           value="">
+          </div>
+          <input type="hidden" id="tf-domain-picked" value="">
         </div>
 
         <div class="tf-field">
@@ -683,7 +720,7 @@
 
       <details class="tf-details">
         <summary>What if they don't pay?</summary>
-        <p>Sample suspend park notice (not sent): “Hi Antonio, hosting for AR Electrical is past due. The site is on a temporary park page until payment clears. Pay here to restore: [hosting link]. Call us if you need a day or two.”</p>
+        <p>Sample suspend park notice (not sent): "Hi Antonio, hosting for AR Electrical is past due. The site is on a temporary park page until payment clears. Pay here to restore: [hosting link]. Call us if you need a day or two."</p>
       </details>
     </div>
   </div>
@@ -698,7 +735,7 @@
       </div>
       <button type="button" class="tf-modal__close" data-tf="close-outreach" aria-label="Close">&times;</button>
     </div>
-    <p class="tf-note">Human sequence from first touch to soft claim. Filled for AR Electrical / Antonio / San Bernardino.</p>
+    <p class="tf-note">Human sequence from first touch to soft claim. Filled for AR Electrical / Antonio / San Bernardino. Nothing is sent from this page.</p>
     <div class="tf-bubbles">
       <div class="tf-bubble tf-bubble--sms">
         <p class="tf-bubble__meta">1 · First touch</p>
@@ -706,7 +743,7 @@
       </div>
       <div class="tf-bubble tf-bubble--sms">
         <p class="tf-bubble__meta">2 · Preview</p>
-        <p>Here you go: https://bottomlineventuresinc-hue.github.io/tf-demo-ar-sanbernardino/ · Plumbing, electrical, and remodels, priced in writing. Tell me what to change and I will update the draft.</p>
+        <p>Here you go: https://bottomlineventuresinc-hue.github.io/tf-demo-ar-sanbernardino/ · Home and shop electrical in San Bernardino, with the price in writing. Tell me what to change and I will update the draft.</p>
       </div>
       <div class="tf-bubble tf-bubble--sms">
         <p class="tf-bubble__meta">3 · Soft claim</p>
